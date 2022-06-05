@@ -1,91 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head> <!-- informação da pagina -->
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-escalable=no, maximum-scale=1.0, minimun-scaled=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pedro Gil</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Gil Bonett</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header> 
-      <div>
-         <nav> <!-- Navegação menu -->
-                <ul>
-                  <a href="#sobre-mim">Sobre min</a>
-                  <a href="#objetivos">Objetivos</a>
-                  <a href="#projetos">Projetos</a>
-                  <a href="#redes">Contato</a>
-               </ul>
-         </nav>
-         <div><!-- Conteudo Cabeçalho -->
-            <h1>Pedro Gil Bonett</h1>
-                <span></span>
-                <h2>Futuro Programador Full Stack</h2>
-         </div>
-         <div>
-            <img src="img/pedro.jpeg" alt="Foto de Pedro Gil" width="10%"> 
-         </div>
-        </div>
-    </header>
-    <main>
-        <section>
-         <article>
-            <h2 id="sobre-mim">Sobre Min</h2>
-             <p>Meu nome é Pedro Luis Gil Bonett, Sou Venezuelano, nasci na cidade de Carúpano Estado Sucre, tenho 30 anos, estudei Engenharia de Petroleo mas não sou formado, deixei meus estudos para vir no Brasil procurar uma melhor qualidade de vida. Cheguei no Brasil no 2018, moro atualmente en Manaus estado Amazonas, sou gerente de um estacionamento e atualmente estou estudando Programação full stack na Toti.
-            <h2>Curiosidades sobre min</h2>
-             <ul><li>Gosto de Correr ao ar livre</li> </ul>
-             <ul><li>Tenho 3 pets (2 gatos e 1 cachorro)</li></ul>
-             <ul><li>Gosto de dançar musica latina</li></ul>
-             <ul><li>Gosto de Café</li></ul>
-             <ul><li>Tenho um irmão gêmeo</li></ul>
-         </article>
-         <article>
-            <h2 id="objetivos">Objetivos</h2>
-             <ul>
-                 <li>Ser um grande profissional na area da tecnologia</li><br>
-                 <li>Desenvolver habilidades pessoais, a capacidade de me adaptar a mudanças e trabalhar sobpressão</li><br>
-                 <li>Conquistar uma vaga no mercado de trabalho</li><br>
-         </article>
-         <article>
-             <h2 id="projetos">Projetos</h2>
-             <ul>
-             <li><a href="https://github.com/gilbonett/ExercicioAula6.git" target="_blank">Rascunhei a separação de um template e criei a marcação de texto.</a></li> <br>
-             <li><a href="https://github.com/gilbonett/arepa.git" target="_blank">Criei a Receita de uma comida</a></li> <br>
-            </ul>
-         </article>
-         <article>
-             <h2 id="redes">Pode me seguir nas redes socias</h2> <!-- Redes Socias -->
-             <ul><a href="https://www.linkedin.com/in/gilbonett/" target="_blank">Linkedin</a></ul> <img src="img/linkedin.png" alt="logo-linkedin" width="50" height="50">
-             <ul><a href="https://github.com/gilbonett" target="_blank">Github</a></ul> <img src="img/github.png" alt="logo-github" width="50" height="50">
-             <ul><a href="https://www.instagram.com/gilbonett/" target="_blank">Instagram</a></ul> <img src="img/instagram.png" alt="logo-instagram" width="50" height="50">
-         </article>
-        </section>
-        <br>
-        <div>
-            <form action="https://www.google.co.ve" method="get">
-                <ul>
-                 <li>
-                   <label for="name">Nome:</label>
-                   <input type="text" id="name" name="user_name">
-                 </li>
-                 <li>
-                   <label for="mail">Email:</label>
-                   <input type="email" id="mail" name="user_mail">
-                 </li>
-                 <li>
-                   <label for="msg">Mensagem:</label>
-                   <textarea id="msg" name="user_message"></textarea><br><br>
-                   <button type="submit">Enviar</button>
-                 </li>
-                </ul>
-               </form>
-        </div>
-    </main>
-    <footer>
-    <div>
-          <p> Entre en contacto atraves<a href="mailto:gilbonett@gmail.com">Email</a></p>
-         &copy;2022 Pedro Gil Bonett 
+<main>
+
+<header class="navegacao">
+<img class="logo" src="img/logopedro.png" alt="logo">
+<nav>
+ <a href="#home">Home</a>
+ <a href="#sobre">Sobre mim</a>
+ <a href="#projeto">Projetos</a>
+ <a href="#contato">Contatos</a>
+</nav>
+</header>
+<div id="home" class="hero container">
+    <div class="box box0"><h1>Pedro Gil Bonett</h1></div>
+    <div class="box box1">
+        <a href="https://www.instagram.com/gilbonett/"  target="_blank fel="noopener> <img src="img/instagram.png" width="40" height="40" alt="logo instagram"></a>
+        
+        <a href="https://github.com/gilbonett" target="_blank" fel="noopener"><img src="img/github.png"
+        width="40" height="40" alt="logo github"  class="imagenes-rodape"></a>
+            
+        <a href="https://www.linkedin.com/in/gilbonett/"  target="_blank fel="noopener> <img src="img/linkedin.png"    width="40" height="40" alt="logo linkedin"></a> 
     </div>
-    </footer>
+
+    <div class="box box2">
+    <img src="img/pedro.jpeg" alt="imagen pedro" width="200" height="200">
+    </div>
+
+</div>
+  <h2 id="sobre" class="sobremim">Sobre mim</h2>
+<div class="container_sobremim">
+  
+    <div class="item item1">
+        <p> <strong>Meu nome é Pedro Luis Gil Bonett</strong>,tenho 30 anos, sou Venezuelano, estou no Brasil a 4 anos, sou uma pessoa extrovertida, gosto de fazer amizades, ajudar pessoas, gosto de animais (atualmente tenho 2 gatos e 1 cachorro), gosto de dançar, gosto de natureza, fazer trilhas, caminhada e amo correr no meu tempo livre, gosto de livros de thriller, detetives e afim, sempre gostei de tecnologia, gosto um pouco de muitas coisas. Atualmente trabalho em um estacionamento, faço academia e me sinto feliz de estar na Toti aprendendo programação, é uma experiência incrível a que estou vivendo hoje, tudo o que estou aprendendo e minha evolução no pouco tempo de curso é satisfatória e espero continuar crescendo e me tornar um profissional qualificado.
+        </p>
+    </div>
+
+    <div class="item item2">
+        <img src="img/pedrofrentepc.jpg" alt="Foto Frente Computador">
+    </div>
+
+    <div class="item item3">
+        
+        <ol>
+            <h2>Intereses</h2>
+            <li>Desenvolvimento WEB</li>
+            <li>Me capacitar no Framework React</li>
+            <li>Me capacitar en banco de dados SQL e NoSQL</li>
+            <li>Conhecer sobre API REST</li>
+            <li>Fazer treinamentos sobre metodologias ageis</li>
+        </ol>
+    </div>
+</div>
+
+<h2 id="tecno" class="tecnologias">Tecnologias</h2>
+<div class="container_tecnologias">
+    <img class="icon" src="/img/figma.png" alt="logo figma">
+    <img class="icon" src="/img/github.png" alt="logo github">
+    <img class="icon" src="/img/html.png" alt="logo html">
+    <img class="icon" src="/img/css3.png" alt="logo css3">
+</div>
+
+<h2 id="projeto" class="projetos">Projetos</h2>
+<div class="container_projeto">
+  
+    <div class="projeto projeto1">
+      <a href="https://receita.gilbonett.repl.co/" target="_blank"> <img src="img/2.png" alt="Receita"></a>
+      <p>Pagina Receita de Arepa</p>  
+    </div>
+
+    <div class="projeto projeto2">
+      <a href="https://layout.gilbonett.repl.co/" target="_blank"> <img src="img/1.png" alt="Layout"> </a>
+      <p>Pagina de Layout Responsivo</p>
+    </div>
+
+    <div class="projeto projeto3">
+      <a href="https://www.figma.com/proto/rAKjPhQjuP6ObgcDBzxGMx/miprimerfigma?node-id=4%3A6&scaling=scale-down&page-id=4%3A5" target="_blank" > <img src="img/3.png" alt="Figma"> </a>
+      <p>Layout en Figma de Pagina WEB</p>
+    </div>
+</div>
+
+<div id="contato" class="container_contato">
+    <form action="#" class="form-contact" method="post" tabindex="1">
+      <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />
+      <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
+      <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />
+      <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>
+      <button type="submit" class="form-contact-button">Enviar</button>
+    </form>
+  </div>
+
+</main>
+
+<footer class="footer">
+    <div>
+        <a href="https://www.instagram.com/gilbonett/"  target="_blank fel="noopener> <img src="img/instagram.png" width="50" height="50" alt="logo instagram"></a>
+
+        <a href="https://github.com/gilbonett" target="_blank" fel="noopener"><img src="img/github.png"
+            width="50" height="50" alt="logo github" class="imagenes-rodape"></a>
+    
+        <a href="https://www.linkedin.com/in/gilbonett/"  target="_blank fel="noopener> <img src="img/linkedin.png"    width="50" height="50" alt="logo instagram"></a>
+  </div> 
+  </footer>
+
 </body>
 </html>
