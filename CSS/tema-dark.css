@@ -1,0 +1,44 @@
+.dark-mode {
+    --principal-color: rgb(34,193,195);
+    --fuente-texto: "roboto", sans-serif;
+    --fuente-titulo: "Raleway", sans-serif;
+    --titulos-color: #000 ; 
+    --text-color: #C8CDD0;
+    --light-text-color: #8e9ba4;
+    --container-color: #212E36;
+    --body-color: #192229 ;
+    --shadow-color: none;
+    --font-size-titulos: 40px;
+    --font-size-texto: 16px; 
+} 
+
+
+ .dark-mode {
+    background: var(--body-color);
+    color: var(--light-text-color);
+    box-shadow: none;
+    
+ }
+
+.btn-mode{
+    z-index: 999;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+
+    background-color: var(--main-color);
+    color: var(--second-color);
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    transition: all 0.3s ease-out;
+  }  
+
+  .btn-mode:hover{
+    background-color:#000;
+    color: var(--main-color);
+  }
+      
+    
+  

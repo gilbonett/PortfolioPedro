@@ -1,0 +1,124 @@
+@media screen and (max-width:760px) {
+   
+    h2{
+        text-align: center;
+    }
+
+    .navegacao {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navegacao img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .navegacao a{
+        padding: 5px;
+    }
+
+    .hero{
+        height: 400px;
+    }
+
+    .box0{
+        display: flex;
+        text-align: center;
+        margin-top: 75px;
+    }
+
+
+
+    .box0 h1{
+        font-size: 42px;
+        margin-bottom: 0;
+    }
+
+    .box1{
+        display: none;
+    }
+
+   .box2 img{
+    display: flex;
+    position:inherit;
+    border-radius: 50%;
+   }
+
+
+    .container_sobremim{
+     display: initial;
+    }
+
+    .item{
+        width: auto;
+    }
+
+    .item1 p{
+        margin-left: 25px;
+        width: 330px;
+    }
+
+    .item2 {
+        display: none;
+    }
+
+    .item3 {
+        margin-left: 25px;
+        height: 250px;
+    }
+
+    .sobremim{
+        padding-bottom: 10px;
+        padding-left: 0px;
+    }
+
+    .habilidades{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        text-align: center;
+    }
+  
+    .container_tecnologias{
+        display: initial;
+    }
+
+  .tecnologias{
+      padding-bottom: 20px;
+      padding-left: 0;
+  }
+  
+  .projetos{
+    padding-left: 0;
+  }
+  
+    .container_projeto{
+        margin:0;
+        height: auto;
+        
+    }
+.footer {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.footer span{
+display: none;
+}
+
+.form-contact{
+    margin: 0;
+    width: 200%;
+    height: auto;
+}
+
+.form-contact-button{
+    margin: 10px 30px 30px 30px;
+}
+
+}

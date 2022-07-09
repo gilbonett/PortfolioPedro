@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+:root{
+    --principal-color: rgb(34,193,195);
+    --fuente-texto: "roboto", sans-serif;
+    --fuente-titulo: "Raleway", sans-serif;
+    --titulos-color: #000 ; 
+    --text-color: #000;
+    --light-text-color: #8e9ba4;
+    --container-color: #FFF;
+    --body-color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    --shadow-color: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    --font-size-titulos: 40px;
+    --font-size-texto: 16px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none; 
+    scroll-behavior: smooth;
+}
+
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+h1 {
+    font-family: var(--fuente-titulo);
+}
+
+html{
+    background: var(--principal-color);
+    background: var(--body-color);
+}
+
+
+h2{
+    font-family: var(--fuente-titulo);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: var(--font-size-titulos);
+}
+
+p {
+    font-family: var(--fuente-texto);
+    font-size: var(--font-size-texto);
+}
+
+ol{
+    font-family: var(--fuente-texto);
+    font-size: var(--font-size-texto);
+}
+
+.projetos{
+    padding-left: 50px;
+}
+
+.tecnologias{
+    padding-left: 50px;
+}
+
+.container_tecnologias{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.icon{
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+
+.container_projeto{
+    width: 100%;
+    max-width: 1200px;
+    height: 450px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center; 
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container_projeto h2{
+    margin-top: 20px;
+}
+
+.projeto{
+    height: 325px;
+    width: 265px;
+    border-radius: 8px;
+    box-shadow: var(--shadow-color);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #eff3f5;
+}
+
+.container_projeto .projeto:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.projeto img{
+width: 330px;
+height: 220px;
+}
+
+.projeto h3{
+    padding-bottom:10px;
+
+}
+
+  
