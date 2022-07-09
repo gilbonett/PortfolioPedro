@@ -29,14 +29,19 @@
     }
 
 
-
     .box0 h1{
         font-size: 42px;
         margin-bottom: 0;
+        margin-right: 20px;
     }
 
     .box1{
         display: none;
+    }
+
+    .box2{
+        display: flex;
+        flex-direction: column;
     }
 
    .box2 img{
@@ -51,12 +56,15 @@
     }
 
     .item{
-        width: auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 80%;
     }
 
     .item1 p{
-        margin-left: 25px;
-        width: 330px;
+        margin-left: auto;
+        width: 80%;
     }
 
     .item2 {
