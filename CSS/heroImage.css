@@ -1,7 +1,8 @@
 .hero {
-    background-image: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-97395.jpg?t=st=1654378943~exp=1654379543~hmac=80f92b7d225bdbec2a8ca744c9b88c7616a9a5c8a99666037908f988186c1c4a&w=1600");
+    background-image: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-97395.jpg?t=st=1654378943~exp=1654379543~hmac=80f92b7d225bdbec2a8ca744c9b88c7616a9a5c8a99666037908f988186c1c4a&w=1350");
     background-color: rgba(0, 0, 0, .70);
     height: 500px;
+    width: 100%;
     background-repeat: no-repeat; 
     display: flex;
     flex-wrap: wrap;
