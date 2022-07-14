@@ -1,0 +1,99 @@
+:root{
+    --principal-color: rgb(34,193,195);
+    --fuente-texto: "roboto", sans-serif;
+    --fuente-titulo: "Raleway", sans-serif;
+    --titulos-color: #000 ; 
+    --text-color: #000;
+    --light-text-color: #8e9ba4;
+    --container-color: #FFF;
+    --body-color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    --shadow-color: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    --font-size-titulos: 60px;
+    --font-size-texto: 42px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  background: rgb(253,29,29);
+  background: linear-gradient(167deg, rgba(253,29,29,1) 50%, rgba(255,255,255,1) 100%);  
+}
+
+
+body {
+   background-color:  #19A2AE;
+}
+
+h1{
+    font-family: var(--fuente-titulo);
+    font-size: var(--font-size-titulos);
+}
+
+.valor{
+    font-family: var(--fuente-texto);
+    font-size: var(--font-size-texto);
+    width: 250px;
+}
+
+.buscar{
+    font-size: 24px;
+}
+
+.card{
+    border: 2px solid;
+}
+
+.container{
+display: flex;
+justify-content: center;
+}
+
+.card-fondo {
+    width: 500px;
+    height: 600px;
+    border: 1px solid white;
+    background-color: #000;
+    background-image:url("/img/fondo-poke\ 1.svg") ;
+    border-radius: 30px;
+}
+
+.card-header{
+    border: 2px solid;
+}
+
+.datos{
+   text-align: center;
+}
+
+.poke-img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #fff;
+    background-color: #FFF;
+}
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    margin-left: 4px;
+}
+
+.card-nome, .card-exp {
+    text-align: center;
+}
+
+.card-parametros{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.card-datos{
+    text-align: center;
+}

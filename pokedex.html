@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>   
+    <link rel="stylesheet" href="CSS/navagação.css">
+    <link rel="stylesheet" href="CSS/pokedex.css">
+
+</head>
+<body>
+
+    <header class="navegacao">
+        <img class="logo" src="img/logopedro.png" alt="Logo de la empresa">
+        <nav>
+         <a href="#home">Home</a>
+         <a href="#sobre">Sobre mim</a>
+         <a href="#projeto">Projetos</a>
+         <a href="#contato">Contatos</a>
+        </nav>
+    </header>
+
+    <!-- Datos de Formulrio de Busqueda  -->
+    <div class="datos">
+        <h2>Pokedex</h2>
+        <h2> Encontra o pokemon pelo seu nome ou numero</h2>
+        <form class="formulario">
+          <input type="text" id="buscar" min-lenght="12" max-lenght="12" class="valor"><br><br>
+          <input type="button" value="Buscar" class="buscar">
+        </form>
+      </div>
+
+     <!--  <template> -->
+        <!-- Card dinamica de pokemon -->
+        <div class="container">
+
+       <div class="card-fondo">
+
+       <div class="card-img">
+        <img src="img/116.svg" alt="logo" class="poke-img">
+      </div> 
+
+      <div class="nomeExp">
+        <h2 class="card-nome">Nome</h2>
+        <h3 class="card-exp">Experiencia</h3> 
+      </div>
+        
+    <div class="card-parametros" >
+       <div class="card-datos">
+            <h2>100kg</h2>
+            <h2>Peso</h2>
+        </div>
+        <div class="card-datos">
+            <h2>1.5mt</h2>
+            <h2>Altura</h2>
+        </div> 
+    </div>
+    
+     </div> 
+    </div>
+      <!-- </template> -->
+      <script src="app.js"></script>
+    
+</body>
+</html>
