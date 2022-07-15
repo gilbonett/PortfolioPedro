@@ -33,10 +33,11 @@ h1{
     font-size: var(--font-size-titulos);
 }
 
-.valor{
+#valor{
     font-family: var(--fuente-texto);
     font-size: var(--font-size-texto);
-    width: 250px;
+    width: 150px;
+    
 }
 
 .buscar{

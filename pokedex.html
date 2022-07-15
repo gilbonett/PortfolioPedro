@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>   
-    <link rel="stylesheet" href="CSS/navagação.css">
-    <link rel="stylesheet" href="CSS/pokedex.css">
+    <link rel="stylesheet" href="CSS/navegacao.css">
+    <link rel="stylesheet" href="pokedex.css">
 
 </head>
 <body>
@@ -24,11 +24,10 @@
     <!-- Datos de Formulrio de Busqueda  -->
     <div class="datos">
         <h2>Pokedex</h2>
-        <h2> Encontra o pokemon pelo seu nome ou numero</h2>
         <form class="formulario">
-          <input type="text" id="buscar" min-lenght="12" max-lenght="12" class="valor"><br><br>
-          <input type="button" value="Buscar" class="buscar">
-        </form>
+           <h2> Encontra o pokemon pelo seu numero</h2>
+            <input type="number"  min="1" max="10000" id="valor" ><br><br>
+            <input type="button" value="Buscar" onclick="pegarDados()">
       </div>
 
      <!--  <template> -->
