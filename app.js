@@ -1,18 +1,4 @@
 
-const container = document.querySelector(".container");
-console.log (container)
-const cardFondo = container.querySelector(".card-fondo");
-console.log (cardFondo)
-const cardImg = cardFondo.querySelector(".card-img")
-console.log (cardImg)
-/* const container = document.querySelector(".container");
-console.log (container)
-const container = document.querySelector(".container");
-console.log (container)
-const container = document.querySelector(".container");
-console.log (container)
-
- */
 
 
 async function pegarDados ()  {
@@ -20,9 +6,16 @@ async function pegarDados ()  {
     try {
     const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${valor}`);
     const data = await res.json();
-    console.log(data);
+    document.querySelector("#fondo").classList.add("card-fondo")
+    document.querySelector(".imgPoke").setAttribute("src", data.sprites.other.dream_world.front_default)
+    document.querySelector(".card-nome").textContent = data.name;
+    document.querySelector(".card-exp").textContent = ((data.id));
+    document.querySelector(".weight").textContent = data.weight;
+    document.querySelector(".peso").textContent = "Peso";
+    document.querySelector(".height").textContent = data.height;
+    document.querySelector(".altura").textContent = "Altura";
 } catch (error){
-    console.log("API fora do Ar");
+    console.log("API fora do Ar"); 
 }
    console.log(valor);
     document.querySelector(".formulario").reset();
@@ -34,5 +27,3 @@ async function pegarDados ()  {
 
 
 
-/*  img
-"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/21.svg" */

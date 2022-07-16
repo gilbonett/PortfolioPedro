@@ -12,15 +12,53 @@
     --font-size-texto: 42px;
 }
 
+.btn-hover {
+    min-height: 45px; width: 200px; border-radius: 30px; border: 0px white; background-color: rgb(149, 165, 166); font-family: "Do Hyeon", sans-serif;
+}
+
+.btn-hover:hover{
+    background-color: #201E3E;
+            color:white;
+
+}
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-transform: capitalize;
+    font-family: var(--fuente-texto);
+    text-decoration: none; 
 }
+
+.navegacao{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.navegacao a{
+    font-family: var(--fuente-titulo);
+    padding-right: 30px;
+    color: var(--text-color);
+
+
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
 
 header{
   background: rgb(253,29,29);
-  background: linear-gradient(167deg, rgba(253,29,29,1) 50%, rgba(255,255,255,1) 100%);  
 }
 
 
@@ -31,17 +69,31 @@ body {
 h1{
     font-family: var(--fuente-titulo);
     font-size: var(--font-size-titulos);
-}
+    text-align: center;
+    color: linear-gradient(135deg,#009245,#FCEE21,#D9E021);
+    margin-bottom: 20px;
 
-#valor{
-    font-family: var(--fuente-texto);
-    font-size: var(--font-size-texto);
-    width: 150px;
     
 }
 
-.buscar{
-    font-size: 24px;
+section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#valor{
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.enviar{
+    background-color: rgb(253,29,29); ;
 }
 
 .card{
@@ -54,12 +106,13 @@ justify-content: center;
 }
 
 .card-fondo {
-    width: 500px;
-    height: 600px;
+    width: 300px;
+    height: 400px;
     border: 1px solid white;
     background-color: #000;
     background-image:url("/img/fondo-poke\ 1.svg") ;
     border-radius: 30px;
+    margin-left: 25px;
 }
 
 .card-header{
@@ -70,19 +123,12 @@ justify-content: center;
    text-align: center;
 }
 
-.poke-img{
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-    border: 2px solid #fff;
-    background-color: #FFF;
-}
-
 .card-img{
+    height: 150px;
     display: flex;
     justify-content: center;
-    margin-top: 30%;
-    margin-left: 4px;
+    margin-top: 37%;
+    margin-left: 3px;
 }
 
 .card-nome, .card-exp {
@@ -97,4 +143,28 @@ justify-content: center;
 
 .card-datos{
     text-align: center;
+}
+
+
+@media screen and (max-width:760px) {
+
+    .navegacao {
+        text-align: center;
+        height: 100px;
+    }
+    
+    .navegacao img{
+        display: none;
+    }
+
+    .navegacao a{
+        padding: 5px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
 }
