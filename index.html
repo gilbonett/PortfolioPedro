@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/CSS/sobremim.css">
     <link rel="stylesheet" href="/CSS/formulario.css">
     <link rel="stylesheet" href="/CSS/media.css">
+    <link rel="stylesheet" href="/CSS/form_validacao.css">
     
 </head>
 <body data-dark>
@@ -153,11 +154,30 @@
      </section>
 
         <section id="contato" class="container_contato">
-          <form action="#" class="form-contact" method="post" tabindex="1">
-            <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />
-            <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
-            <input type="number" class="form-contact-input" name="tel" placeholder="Telefone" />
-            <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>
+          <form action="" class="form-contact"  tabindex="1">
+
+            <input type="text" class="form-contact-input" name="nome" placeholder="Nome" id="nome" />
+           <!--  <i class="sucess"> <img src="/img/succes.png" alt=""></i>
+            <i class="error"> <img src="/img/error.png" alt=""></i> -->
+            <span></span>
+
+
+            <input type="email" class="form-contact-input" name="email" placeholder="Email" id="email"  />
+            <!-- <i class="sucess"> <img src="/img/succes.png" alt=""></i>
+            <i class="error"> <img src="/img/error.png" alt=""></i> -->
+            <span></span>
+
+
+            <input type="number" class="form-contact-input" name="telefone" placeholder="Telefone" id="telefone" />
+            <!-- <i class="sucess"> <img src="/img/succes.png" alt=""></i>
+            <i class="error"> <img src="/img/error.png" alt=""></i> -->
+            <span></span>
+
+            <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" id="mensage"></textarea>
+            <!-- <i class="sucess"> <img src="/img/succes.png" alt=""></i>
+            <i class="error"> <img src="/img/error.png" alt=""></i> -->
+            <span></span>
+
             <button type="submit" class="form-contact-button">Enviar</button>
           </form>
         </section>

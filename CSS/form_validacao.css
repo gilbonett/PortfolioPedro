@@ -1,0 +1,36 @@
+
+.form-success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-error i.error {
+    visibility: visible;
+}
+
+.form-success i.success {
+    visibility: visible;
+}
+
+.form-error span{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-contact i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-contact span {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
