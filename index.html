@@ -148,37 +148,54 @@
     
         <a href="https://www.linkedin.com/in/gilbonett/"  target="_blank fel="noopener> <img src="img/linkedin.png"    width="50" height="50" alt="logo instagram"></a> <br><br>
 
-        <span><img class="logo" src="img/logopedro.png" alt="Logo de la empresa"></span>
+        <span id="logo-footer"><img class="logo" src="img/logopedro.png" alt="Logo de la empresa"></span>
         
         
      </section>
 
         <section id="contato" class="container_contato">
-          <form action="" class="form-contact"  tabindex="1">
 
-            <input type="text" class="form-contact-input" name="nome" placeholder="Nome" id="nome" />
-           <!--  <i class="sucess"> <img src="/img/succes.png" alt=""></i>
-            <i class="error"> <img src="/img/error.png" alt=""></i> -->
-            <span></span>
+          <form  class="form-contact"  tabindex="1">
 
+            <div class="formulario">
+              <input type="text"  name="nome" placeholder="Nome" id="nome"/>
+          
+              <span></span>
+            </div>
+           
+ 
+            <div class="formulario">
+               <input type="email"  name="email" placeholder="Email" id="email"/>
+              
+               <span></span>
+            </div>
+           
+            <div class="formulario">
+              <input type="number" name="telefone" placeholder="Telefone" id="telefone"/>
+           
+              <span></span>
+            </div>
+            
+            <div class="formulario">
+              <textarea  name="conteudo" placeholder="Deixe uma mensagem" id="mensage"></textarea>
+             
+              <span></span>
+            </div>
+            
+            <button type="submit" >Enviar</button>
 
-            <input type="email" class="form-contact-input" name="email" placeholder="Email" id="email"  />
-            <!-- <i class="sucess"> <img src="/img/succes.png" alt=""></i>
-            <i class="error"> <img src="/img/error.png" alt=""></i> -->
-            <span></span>
+            <div class="loader none">
+              <img src="/img/oval.svg" alt="Cargando">
+          </div>
+      
+          <div class="contact-response none" >
+              <p>Los datos han sido enviados</p>
+          </div>
 
+          <div class="contact-response-erro none" >
+            <p>Por favor preencha os dados corretamente</p>
+        </div>
 
-            <input type="number" class="form-contact-input" name="telefone" placeholder="Telefone" id="telefone" />
-            <!-- <i class="sucess"> <img src="/img/succes.png" alt=""></i>
-            <i class="error"> <img src="/img/error.png" alt=""></i> -->
-            <span></span>
-
-            <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" id="mensage"></textarea>
-            <!-- <i class="sucess"> <img src="/img/succes.png" alt=""></i>
-            <i class="error"> <img src="/img/error.png" alt=""></i> -->
-            <span></span>
-
-            <button type="submit" class="form-contact-button">Enviar</button>
           </form>
         </section>
   

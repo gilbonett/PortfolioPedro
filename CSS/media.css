@@ -113,7 +113,7 @@
 }
 
 
-.footer span{
+#logo-footer{
 display: none;
 }
 
@@ -125,6 +125,11 @@ display: none;
 
 .form-contact-button{
     margin: 10px 30px 30px 30px;
+}
+
+.formulario span{
+    display: flex;
+    
 }
 
 }
