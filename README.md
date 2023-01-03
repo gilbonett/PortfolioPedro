@@ -16,8 +16,7 @@
 <h3 align="center"> Portfolio usando HTML, CSS, JavaScript</h3>
 
 <p align="justify">O Portfolio foi creado com a intenção de mostrar informaçoes sobremim, intereses, 
-educação, tecnologias e projetos que desenvolvi ao logo da minha formação com a Toti, foram utlizadas HTML, CSS e JavaScript, foi muito desafiador pelo pouco 
-tempo que tivemos para desenvolver o portfolio, espero poder fazer um upgrade com React JS e assim fazer melhorias</p>
+educação, tecnologias e projetos que desenvolvi ao longo da minha formação com a Toti, foram utlizadas HTML, CSS e JavaScript, foi muito desafiador pelo pouco tempo que tivemos para desenvolver o portfolio, espero poder fazer um upgrade com React JS e assim fazer melhorias</p>
 
 <h3>Tópicos</h3>
 
@@ -44,15 +43,12 @@ tempo que tivemos para desenvolver o portfolio, espero poder fazer um upgrade co
 <div align= "center">
 <img src= "https://user-images.githubusercontent.com/101142283/210445015-33a74128-4a9c-48a6-b880-33185d76c18e.jpg" width="1000px"/>
 </div> 
-
 <div align= "center">
 <img src= "https://user-images.githubusercontent.com/101142283/210422247-5ad2eb4a-af49-400f-b552-6c014ee920bd.jpg" width="1000px"/>
 </div>
-
 <div align= "center">
 <img src= "https://user-images.githubusercontent.com/101142283/210422286-7520a079-7641-4baa-97d2-32959e88ba13.jpg" width="1000px"/>
 </div>
-
 <div align= "center">
 <img src= "https://user-images.githubusercontent.com/101142283/210422306-1f1846be-d468-4d62-aa9f-67b8d43e7f58.jpg" width="1000px"/>
 </div>
