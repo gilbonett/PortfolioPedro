@@ -1,63 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>   
-    <link rel="stylesheet" href="/pokedex.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Pokedex</title>   
+      <link rel="stylesheet" href="/pokedex.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 </head>
 <body>
-
-    <header class="navegacao">
-        <img class="logo" src="img/logopedro.png" alt="Logo de la empresa">
-        <nav>
+<header class="navegacao">
+      <img class="logo" src="img/logopedro.png" alt="Logo de la empresa">
+      <nav>
          <a href="/#home">Home</a>
          <a href="/#sobre">Sobre mim</a>
          <a href="/#projeto">Projetos</a>
          <a href="/#contato">Contatos</a>
-        </nav>
-    </header>
-    <h1>Pokedex</h1>
+      </nav>
+</header>
+<h1>Pokedex</h1>
 
-    <section class="container">
-         <div id="fondo">
+<section class="container">
+      <div id="fondo">
             <div class="card-img">
                <img class="imgPoke">
             </div> 
-     
             <div class="nomeExp">
-             <h2 class="card-nome"></h2>
+            <h2 class="card-nome"></h2>
                <h3 class="card-exp"></h3> 
             </div>
-             
-            <div class="card-parametros" >
-              <div class="card-datos">
-                 <h3 class="weight"></h3>
-                 <p class="peso"></p>
-              </div>
-              <div class="card-datos">
-                 <h3 class="height"></h3>
-                 <p class="altura"></p>
-              </div> 
-           </div>
-        
-         </div> 
-     </div>
-    
-          <!-- Datos de Formulrio de Busqueda  -->
-       <div class="datos">
-        
+         <div class="card-parametros" >
+            <div class="card-datos">
+               <h3 class="weight"></h3>
+               <p class="peso"></p>
+            </div>
+            <div class="card-datos">
+               <h3 class="height"></h3>
+               <p class="altura"></p>
+            </div> 
+         </div>
+      </div> 
+   
+   <!-- Datos de Formulrio de Busqueda  -->
+   <div class="datos">
          <form class="formulario">
-            <h2> Encontra o pokemon <br> pelo seu numero ou nome</h2>
-             <input type="name"  min="1" max="10000" id="valor" aria-required="true"><br><br>
-             <input type="button" value="Buscar" onclick="pegarDados()" class="enviar btn-hover">
-       
-    </section>
+         <h2> Encontra o pokemon <br> pelo seu numero ou nome</h2>
+         <input type="name"  min="1" max="10000" id="valor" aria-required="true"><br><br>
+         <input type="button" value="Buscar" onclick="pegarDados()" class="enviar btn-hover"> 
+         </form>
+   </div>
+</section>
 
       <script src="app.js"></script>
-    
 </body>
 </html>

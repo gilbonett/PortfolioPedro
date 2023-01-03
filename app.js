@@ -1,6 +1,3 @@
-
-
-
 async function pegarDados ()  {
     const valor = document.querySelector("#valor").value;
     try {
@@ -17,7 +14,7 @@ async function pegarDados ()  {
 } catch (error){
     console.log("API fora do Ar"); 
 }
-   console.log(valor);
+console.log(valor);
     document.querySelector(".formulario").reset();
 }
 

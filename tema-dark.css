@@ -13,12 +13,12 @@
 } 
 
 
- .dark-mode {
+.dark-mode {
     background: var(--body-color);
     color: var(--light-text-color);
     box-shadow: none;
     
- }
+}
 
 .btn-mode{
     z-index: 999;

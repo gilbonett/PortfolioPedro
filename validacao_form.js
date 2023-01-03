@@ -1,11 +1,11 @@
- export default function validacaoForm (){
+export default function validacaoForm (){
     const form = document.querySelector(".form-contact");
     const name = document.querySelector("#nome")
     const email = document.querySelector("#email")
     const telefone = document.querySelector("#telefone")
     const mensage = document.querySelector("#mensage")
     
-     const expresiones = {
+    const expresiones = {
         nome: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
         email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
         telefone: /^\d{7,14}$/ // 7 a 14 numeros.
@@ -19,7 +19,7 @@
     }
     
     
-     function verifyInputs(){
+    function verifyInputs(){
         const valorName = name.value 
         const valorEmail = email.value 
         const valorTelefone = telefone.value 
@@ -68,8 +68,7 @@
             datosform.mensaje = true;
         }
         
-        //Crear funciones para mostrar mensaje al tener error
-         
+        //Crear funciones para mostrar mensaje al tener error  
         
     function mostrarError (input, message) {
         const formContato = input.parentElement;
@@ -84,11 +83,9 @@
         const formContato = input.parentElement;
     
         formContato.className = 'formulario sucess'
-    }
-    
-     }
+    }}
 
-     form.addEventListener("submit", (e) => {
+    form.addEventListener("submit", (e) => {
         e.preventDefault(); //Para no procesar formulario0
         verifyInputs()
 
@@ -107,17 +104,10 @@
 
                 setTimeout(() => response.classList.add("none"), 3000); //Ocultar mensaje despues de 3 segundos
             }, 3000)
-           loader.classList.remove("none"); 
+        loader.classList.remove("none"); 
         } else {
-           responseError.classList.remove("none");
-           setTimeout(() => responseError.classList.add("none"), 3000);
-        }
-        
-           
+        responseError.classList.remove("none");
+        setTimeout(() => responseError.classList.add("none"), 3000);
+        } 
     })
- }
-
- //Primeiro passo é não deixar enviar o formulario se nao tiver preenchido e com as validaçoes
-
-
- 
+}
