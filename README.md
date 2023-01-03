@@ -42,7 +42,7 @@ tempo que tivemos para desenvolver o portfolio, espero poder fazer um upgrade co
 
 <h2 id= Car> Presentação</h2>
 <div align= "center">
-<img src= "https://user-images.githubusercontent.com/101142283/210422222-5f7abf5e-dcd0-4405-a115-fad09a726df6.jpg" width="1000px"/>
+<img src= "https://user-images.githubusercontent.com/101142283/210445015-33a74128-4a9c-48a6-b880-33185d76c18e.jpg" width="1000px"/>
 </div> 
 
 <div align= "center">
