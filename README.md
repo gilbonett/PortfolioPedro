@@ -2,7 +2,6 @@
 <img src= "https://user-images.githubusercontent.com/101142283/210415491-780c8663-4ad3-4a89-8393-dd9f0eb76083.png" width="230px"/>
 </div> 
 
-
 <h1 align="center">
     <br>
     Portfolio
@@ -12,7 +11,7 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-<h2 id= Descrip>Descrição do projeto</h2>
+<h2 id= Descrip>Descrição do Projeto</h2>
 
 <h3 align="center"> Portfolio usando HTML, CSS, JavaScript</h3>
 
@@ -91,5 +90,5 @@ https://github.com/gilbonett/PortfolioPedro.git
 
 <h2 id=Des>Desenvolvedor</h2>
 
-Pedro :wave: [Entre em contato!](https://www.linkedin.com/in/gilbonett/)
+Pedro [Entre em Contato!](https://www.linkedin.com/in/gilbonett/)
 
