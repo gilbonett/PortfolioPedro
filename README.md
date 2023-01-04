@@ -41,7 +41,7 @@ educação, tecnologias e projetos que desenvolvi ao longo da minha formação c
 
 <h2 id= Car> Presentação</h2>
 <div align= "center">
-<img src= "https://user-images.githubusercontent.com/101142283/210445015-33a74128-4a9c-48a6-b880-33185d76c18e.jpg" width="1000px"/>
+<img src= "https://user-images.githubusercontent.com/101142283/210445015-33a74128-4a9c-48a6-b880-33185d76c18e.jpg#vitrinedev" width="1000px"/>
 </div> 
 <div align= "center">
 <img src= "https://user-images.githubusercontent.com/101142283/210422247-5ad2eb4a-af49-400f-b552-6c014ee920bd.jpg" width="1000px"/>
