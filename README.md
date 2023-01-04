@@ -2,10 +2,8 @@
 <img src= "https://user-images.githubusercontent.com/101142283/210415491-780c8663-4ad3-4a89-8393-dd9f0eb76083.png" width="230px"/>
 </div> 
 
-<h1 align="center">
-    <br>
-  #  Portfolio
-</h1>
+ # 🪙 Portfolio
+
 <h2 align="center">| :rocket: URL  | https://gilbonett.github.io/PortfolioPedro/</h2>
 
 
@@ -86,7 +84,7 @@ https://github.com/gilbonett/PortfolioPedro.git
 <a href="https://git-scm.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/97px-Git_icon.svg.png?20220905010122" height="60" width="60" target="_blank"></a>
 
 
-## 🤝 Contato dos Contribuintes
+## 🤝 Desenvolvedores
 
 <table border="2">
   <tr>
@@ -123,6 +121,6 @@ https://github.com/gilbonett/PortfolioPedro.git
 </table>
 
 <p align="right">
-  <a href="#-Portfolio">Voltar ao Topo</a>
+  <a href="#-portfolio">Voltar ao Topo</a>
 </p>
 
