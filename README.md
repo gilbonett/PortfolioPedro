@@ -4,7 +4,7 @@
 
 <h1 align="center">
     <br>
-    Portfolio
+  #  Portfolio
 </h1>
 <h2 align="center">| :rocket: URL  | https://gilbonett.github.io/PortfolioPedro/</h2>
 
@@ -86,7 +86,43 @@ https://github.com/gilbonett/PortfolioPedro.git
 <a href="https://git-scm.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/97px-Git_icon.svg.png?20220905010122" height="60" width="60" target="_blank"></a>
 
 
-<h2 id=Des>Desenvolvedor</h2>
+## 🤝 Contato dos Contribuintes
 
-Pedro [Entre em Contato!](https://www.linkedin.com/in/gilbonett/)
+<table border="2">
+  <tr>
+    <td align="center">
+      <details>
+        <summary>
+          <b><a href="https://cursos.alura.com.br/vitrinedev/gilbonett">Vitrine.Dev</a> 🪟</b>
+          <table>
+            <tr>
+              <td align="center">
+                <a href="https://github.com/gilbonett">
+                  <img src="https://avatars.githubusercontent.com/u/101142283?s=400&u=65a54baa757bd9fd2fc3507447850d1f071002c5&v=4" width="150px;" alt="Pedro Github Photo"/>
+                </a>
+                <br>
+                <a href="https://www.linkedin.com/in/gilbonett/">
+                  <sub>
+                    <b>Pedro Gil Bonett</b>
+                  </sub>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </summary>
+
+| :placard: Vitrine.Dev | Pedro Gil Bonett |
+| -------------  | --- |
+| :sparkles: Nome        | **Portfolio**
+| :label: Tecnologias | Html, Css, JavaScript
+| :camera: Img         | <img src="https://user-images.githubusercontent.com/86276393/202929077-693399f9-c5fc-4ea9-8478-95e105cb1f1d.png#vitrinedev" alt="vitrine.dev thumb" width="100%"/>
+
+</details>
+</td>
+</tr>
+</table>
+
+<p align="right">
+  <a href="#-Portfolio">Voltar ao Topo</a>
+</p>
 
