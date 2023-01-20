@@ -1,6 +1,6 @@
 header{
-    background: var(--principal-color);
-    background: var(--body-color);
+    background: var(--main-color);
+    background: var(--main-color);
 }
 
 
@@ -16,7 +16,7 @@ header{
 .navegacao a{
     font-family: var(--fuente-titulo);
     padding-right: 30px;
-    color: var(--text-color);
+    color: #F2F2F2;
 
 
 }

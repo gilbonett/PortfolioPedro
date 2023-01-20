@@ -1,5 +1,5 @@
 .dark-mode {
-    --principal-color: rgb(34,193,195);
+    --main-color:#1F203A;
     --fuente-texto: "roboto", sans-serif;
     --fuente-titulo: "Raleway", sans-serif;
     --titulos-color: #000 ; 
@@ -36,7 +36,7 @@
   }  
 
   .btn-mode:hover{
-    background-color:#000;
+    background-color: #F2F2F2;
     color: var(--main-color);
   }
       

@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
 
 :root{
-    --principal-color: rgb(34,193,195);
+    --main-color:#1F203A;
     --fuente-texto: "roboto", sans-serif;
     --fuente-titulo: "Raleway", sans-serif;
     --titulos-color: #000 ; 
     --text-color: #000;
     --light-text-color: #8e9ba4;
     --container-color: #FFF;
-    --body-color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    --body-color: #F2F2F2;
     --shadow-color: 0px 2px 2px rgba(0, 0, 0, 0.2);
     --font-size-titulos: 40px;
     --font-size-texto: 16px;
