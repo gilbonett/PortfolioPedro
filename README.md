@@ -2,10 +2,10 @@
 <img src= "https://user-images.githubusercontent.com/101142283/210415491-780c8663-4ad3-4a89-8393-dd9f0eb76083.png" width="230px"/>
 </div> 
 
-<h1 align="center">
-    <br>
-    Portfolio
-</h1>
+ # 🪙 Portfolio
+
+<h2 align="center">| :rocket: URL  | https://gilbonett.github.io/PortfolioPedro/</h2>
+
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
@@ -16,8 +16,7 @@
 <h3 align="center"> Portfolio usando HTML, CSS, JavaScript</h3>
 
 <p align="justify">O Portfolio foi creado com a intenção de mostrar informaçoes sobremim, intereses, 
-educação, tecnologias e projetos que desenvolvi ao logo da minha formação com a Toti, foram utlizadas HTML, CSS e JavaScript, foi muito desafiador pelo pouco 
-tempo que tivemos para desenvolver o portfolio, espero poder fazer um upgrade com React JS e assim fazer melhorias</p>
+educação, tecnologias e projetos que desenvolvi ao longo da minha formação com a Toti, foram utlizadas HTML, CSS e JavaScript, foi muito desafiador pelo pouco tempo que tivemos para desenvolver o portfolio, espero poder fazer um upgrade com React JS e assim fazer melhorias</p>
 
 <h3>Tópicos</h3>
 
@@ -42,17 +41,14 @@ tempo que tivemos para desenvolver o portfolio, espero poder fazer um upgrade co
 
 <h2 id= Car> Presentação</h2>
 <div align= "center">
-<img src= "https://user-images.githubusercontent.com/101142283/210422222-5f7abf5e-dcd0-4405-a115-fad09a726df6.jpg" width="1000px"/>
+<img src= "https://user-images.githubusercontent.com/101142283/210445015-33a74128-4a9c-48a6-b880-33185d76c18e.jpg" width="1000px"/>
 </div> 
-
 <div align= "center">
 <img src= "https://user-images.githubusercontent.com/101142283/210422247-5ad2eb4a-af49-400f-b552-6c014ee920bd.jpg" width="1000px"/>
 </div>
-
 <div align= "center">
 <img src= "https://user-images.githubusercontent.com/101142283/210422286-7520a079-7641-4baa-97d2-32959e88ba13.jpg" width="1000px"/>
 </div>
-
 <div align= "center">
 <img src= "https://user-images.githubusercontent.com/101142283/210422306-1f1846be-d468-4d62-aa9f-67b8d43e7f58.jpg" width="1000px"/>
 </div>
@@ -88,7 +84,43 @@ https://github.com/gilbonett/PortfolioPedro.git
 <a href="https://git-scm.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/97px-Git_icon.svg.png?20220905010122" height="60" width="60" target="_blank"></a>
 
 
-<h2 id=Des>Desenvolvedor</h2>
+## 🤝 Desenvolvedores
 
-Pedro [Entre em Contato!](https://www.linkedin.com/in/gilbonett/)
+<table border="2">
+  <tr>
+    <td align="center">
+      <details>
+        <summary>
+          <b><a href="https://cursos.alura.com.br/vitrinedev/gilbonett">Vitrine.Dev</a> 🪟</b>
+          <table>
+            <tr>
+              <td align="center">
+                <a href="https://github.com/gilbonett">
+                  <img src="https://avatars.githubusercontent.com/u/101142283?s=400&u=65a54baa757bd9fd2fc3507447850d1f071002c5&v=4" width="150px;" alt="Pedro Github Photo"/>
+                </a>
+                <br>
+                <a href="https://www.linkedin.com/in/gilbonett/">
+                  <sub>
+                    <b>Pedro Gil Bonett</b>
+                  </sub>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </summary>
+
+| :placard: Vitrine.Dev | Pedro Gil Bonett |
+| -------------  | --- |
+| :sparkles: Nome        | **Portfolio**
+| :label: Tecnologias | Html, Css, JavaScript
+| :camera: Img         | <img src="https://user-images.githubusercontent.com/101142283/210445015-33a74128-4a9c-48a6-b880-33185d76c18e.jpg#vitrinedev" alt="vitrine.dev thumb" width="100%"/>
+
+</details>
+</td>
+</tr>
+</table>
+
+<p align="right">
+  <a href="#-portfolio">Voltar ao Topo</a>
+</p>
 
