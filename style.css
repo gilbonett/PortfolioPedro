@@ -7,8 +7,8 @@
     --fuente-titulo: "Raleway", sans-serif;
     --titulos-color: #000 ; 
     --text-color: #000;
-    --light-text-color: #8e9ba4;
-    --container-color: #FFF;
+    --light-text-color: #000;
+    --container-color: #1F203A;
     --body-color: #F2F2F2;
     --shadow-color: 0px 2px 2px rgba(0, 0, 0, 0.2);
     --font-size-titulos: 40px;
@@ -43,6 +43,7 @@ html{
 h2{
     font-family: var(--fuente-titulo);
     padding-top: 20px;
+    padding-left: 50px;  
     padding-bottom: 20px;
     font-size: var(--font-size-titulos);
 }
@@ -61,16 +62,67 @@ ol{
     padding-left: 50px;
 }
 
-.tecnologias{
-    padding-left: 50px;
+.skill-experience{
+    min-height: 50vh;
+    padding: 5rem 3rem;
+    position: relative;
+    padding-left: 5rem;
+    background-color:var(--container-color);
+    color: #F2F2F2;
 }
 
-.container_tecnologias{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 20px;
+.page-skills{
+    overflow: hidden;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-align: center;
+    justify-content: space-between;
 }
+
+.skills{
+    display: flex;
+    padding-right: 5rem;
+    width: 50%;
+    flex-direction: column;
+}
+
+.experience{
+    padding-right: 5rem;
+    width: 50%;
+}
+
+.experience p{
+    position: relative;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.barra{
+    margin-bottom: 2rem;
+}
+
+.barra span{
+    font-size: 18px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+.barra footer{
+    background-color:#F2F2F2 ;
+    height: 2px;
+}
+
+.barra footer div{
+    width: 0;
+    height: 100%;
+    -webkit-transition: width 1.3s ease-out;
+    transition: width 1.3s ease-out;
+    background-color: #F652A0;
+}
+
 .icon{
     width: 150px;
     height: 150px;
@@ -102,6 +154,7 @@ ol{
     text-align: center;
     transition: all 0.25s;
     background-color: #eff3f5;
+    color:  #000;
 }
 
 .container_projeto .projeto:hover{

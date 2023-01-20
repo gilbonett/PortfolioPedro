@@ -1,8 +1,10 @@
-footer{
+.footer1{
     background: var(--principal-color);
-    background: var(--body-color);
+    background: var(--container-color);
     display: flex;
     justify-content: space-evenly;
+    color: #F2F2F2;
+    padding-top: 5rem;
   }
   
   .footerRedes p{
@@ -30,7 +32,4 @@ footer{
     width: 30%;
     margin-right: 100px;
   }
-
-
- 
 

@@ -1,5 +1,4 @@
 @media screen and (max-width:760px) {
-   
     h2{
         text-align: center;
     }
@@ -42,16 +41,16 @@
         flex-direction: column;
     }
 
-   .box2 img{
+.box2 img{
     display: flex;
     position:inherit;
     border-radius: 50%;
-   }
+}
 
 
-    .container_sobremim{
-     display: initial;
-    }
+.container_sobremim{
+    display: initial;
+}
 
     .item{
         display: flex;
@@ -85,20 +84,19 @@
         margin-top: 0;
         text-align: center;
     }
-  
     .container_tecnologias{
         display: initial;
     }
 
-  .tecnologias{
-      padding-bottom: 20px;
-      padding-left: 0;
-  }
-  
-  .projetos{
+.tecnologias{
+    padding-bottom: 20px;
     padding-left: 0;
-  }
-  
+}
+
+.projetos{
+    padding-left: 0;
+}
+
     .container_projeto{
         margin:0;
         height: auto;

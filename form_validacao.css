@@ -1,12 +1,12 @@
 
- .formulario {
+.formulario {
     font-family: var( --fuente-texto);
     margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
   }
 
-  .formulario span  {
+.formulario span  {
     visibility: hidden;
     position: absolute;
     margin-top: 0px;
@@ -14,7 +14,7 @@
 
 }
 
-  .formulario input {
+.formulario input {
       border: 2px solid #3E445B;
       border-radius: 5px;
       outline: 0;
@@ -36,7 +36,7 @@
   }
 
   .form-contact button {
-    background-color: #201E3E;
+    background-color: var(--container-color);
     border-radius: 5px;
     color: #fff;
     padding: 15px;
@@ -45,11 +45,6 @@
     width: 100%;
     margin-top: 5px;
     cursor: pointer;
-}
-
-  .form-contact button:hover {
-    background-color: var(--body-color);
-    transition: 0.3s;
 }
 
 /* Validaçoes do formulario */

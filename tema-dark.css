@@ -4,8 +4,8 @@
     --fuente-titulo: "Raleway", sans-serif;
     --titulos-color: #000 ; 
     --text-color: #C8CDD0;
-    --light-text-color: #8e9ba4;
-    --container-color: #212E36;
+    --light-text-color: #F2F2F2;
+    --container-color: #192229;
     --body-color: #192229 ;
     --shadow-color: none;
     --font-size-titulos: 40px;
@@ -27,7 +27,7 @@
     border-radius: 50%;
     font-size: 1.5rem;
 
-    background-color: var(--main-color);
+    background-color: var(--container-color);
     color: var(--second-color);
     cursor: pointer;
     outline: 0;
@@ -37,7 +37,7 @@
 
   .btn-mode:hover{
     background-color: #F2F2F2;
-    color: var(--main-color);
+    color: var(--container-color);
   }
       
     
