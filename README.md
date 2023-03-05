@@ -41,16 +41,16 @@ educação, tecnologias e projetos que desenvolvi ao longo da minha formação c
 
 <h2 id= Car> Presentação</h2>
 <div align= "center">
-<img src= "https://user-images.githubusercontent.com/101142283/210445015-33a74128-4a9c-48a6-b880-33185d76c18e.jpg" width="1000px"/>
+<img src= "https://user-images.githubusercontent.com/101142283/222981532-2efbccce-83f3-41a4-be5f-54b7d8f4937a.jpg" width="1000px"/>
 </div> 
 <div align= "center">
-<img src= "https://user-images.githubusercontent.com/101142283/210422247-5ad2eb4a-af49-400f-b552-6c014ee920bd.jpg" width="1000px"/>
+<img src= "https://user-images.githubusercontent.com/101142283/222981528-8259ed1f-5bfe-4066-87b1-484e979f252e.jpg" width="1000px"/>
 </div>
 <div align= "center">
-<img src= "https://user-images.githubusercontent.com/101142283/210422286-7520a079-7641-4baa-97d2-32959e88ba13.jpg" width="1000px"/>
+<img src= "https://user-images.githubusercontent.com/101142283/222981529-cfc48321-3a2c-41e3-8481-01f2085ad37b.jpg" width="1000px"/>
 </div>
 <div align= "center">
-<img src= "https://user-images.githubusercontent.com/101142283/210422306-1f1846be-d468-4d62-aa9f-67b8d43e7f58.jpg" width="1000px"/>
+<img src= "https://user-images.githubusercontent.com/101142283/222981531-81ce6d71-e521-4244-94e3-7752556eca6a.jpg" width="1000px"/>
 </div>
 
 <h2 id= Pre> 📑Pre-Requisitos:</h2>
